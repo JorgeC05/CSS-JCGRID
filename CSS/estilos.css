@@ -1,0 +1,64 @@
+body,html,h2{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: sans-serif;
+  color: #333;
+}
+.fila{
+  width: 90%;
+  margin: 1em auto;
+  background: #fff;
+
+  display: flex;
+}
+
+.columna{
+  box-sizing: border-box;
+  border: 1px solid black;
+
+  background: lightblue;
+  padding: 1.2% 0;
+  margin-left: 1%;
+}
+
+.columna:first-child{
+  margin-left: 0;
+}
+
+.total .columna{
+  width: 100%;
+}
+
+.dos-columnas .columna{
+  width: 50%;
+}
+
+.tres-columnas .columna{
+  width: 33%;
+}
+
+.cuatro-columnas .columna,.sidebar{
+  width: 25%;
+}
+
+.seis-columnas .columna{
+  width: 16.6%;
+}
+
+.doce-columnas .columna{
+  width: 8.3%
+}
+
+.contenido{
+  width: 77%;
+}
